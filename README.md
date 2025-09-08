@@ -26,7 +26,9 @@ For every NOW timeseries, an additional one is presented just for the consecutiv
 
 ### Reading The Files
 
-Data are stored in Hierarchical Data Format (.h5) files. In each file (corresponding to a site). Keys represent different combinations of radius thresholds and percentage open water thresholds. So the key “rad_thresh_300_40pc” represents a timeseries of days of open water defined with a 300 km radius and an open-water threshold of 40 percent. This will produce a dataframe like that on the right.
+Data are stored in Hierarchical Data Format (.h5) files. In each file (corresponding to a site). Keys represent different combinations of radius thresholds and percentage open water thresholds. So the key “rad_thresh_300_40pc” represents a timeseries of days of open water defined with a 300 km radius and an open-water threshold of 40 percent. This will produce a dataframe like the one below.
+
+[<img src="./figures/dataframe_head.png" width="300" />](./figures/dataframe_head.png)
 
 ### How It’s Made
 
